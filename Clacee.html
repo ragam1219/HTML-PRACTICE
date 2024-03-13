@@ -1,0 +1,75 @@
+<html>
+    <head>
+     <style>
+            form
+            {
+                
+                width:30%;
+                height: 55%;;
+                background-color: tan;
+                margin-top: 10%;
+                border-radius: 20px;
+            }
+             input.ra1
+            {
+                margin-top: 20%;
+                width:290px;
+                height:30px;
+                background-color: black;
+                color:white;
+            }
+            .abc
+            {
+              width:60px;
+            }
+            h1
+            {
+                padding:0%;
+                margin: 0%;
+            }
+        </style>
+    </head>
+    <body>
+       
+<center><form>
+    <h1>Calculator Program</h1>
+    <hr style="color:gold;">
+    <input type="text" class="ra1" name="answer" id="calc">
+    <br></br>
+    <div><tr>
+    <input  type="button"  class="abc"value="+" id="xyz1"onclick="form.answer.value += '+'">
+    <input  type="button"  class="abc"value="7" onclick="form.answer.value += '7'"></input> 
+    <input  type="button"  class="abc"value="8" onclick="form.answer.value += '8'" ></input>
+    <input  type="button"  class="abc"value="9" onclick="form.answer.value += '9'" ></input>
+</div></tr>
+<br>
+<div><tr>
+    <input  type="button"  class="abc"value="/" onclick="form.answer.value += '/'" ></input>
+    <input  type="button"  class="abc"value="4" onclick="form.answer.value += '4'"></input>
+    <input  type="button"  class="abc"value="5" onclick="form.answer.value += '5'" ></input>
+    <input  type="button"  class="abc"value="6" onclick="form.answer.value += '6'"></input>
+</div></tr>
+<br>
+<div><tr>
+    <input  type="button"  class="abc"value="*" onclick="form.answer.value += '*'"></input>
+    <input  type="button"  class="abc"value="1" onclick="form.answer.value += '1'"></input>
+    <input  type="button"  class="abc"value="2" onclick="form.answer.value += '2'"></input>
+    <input  type="button"  class="abc"value="3" onclick="form.answer.value += '3'"></input>
+</div></tr>
+<br><div><tr>
+    <input  type="button"  class="abc"value="-"  onclick="form.answer.value += '-'"></input>
+    <input  type="button"  class="abc"value="0" onclick="form.answer.value += '0'"></input>
+    <input  type="button"  class="abc"value="." onclick="form.answer.value += '.'"></input>
+    <input type = "button" value = "=" onclick = "form.answer.value = eval(form.answer.value) ">
+</div></tr>
+<br>
+<div> <input type = "button" value = "Clear All" onclick = "form.answer.value = ' ' " id= "clear"> 
+</div>
+
+
+
+
+</form></center>
+
+</body>
+    </html>
