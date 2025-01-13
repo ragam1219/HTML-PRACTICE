@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+  /* Resetting some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section styles */
+.section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  color: #555;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.skill {
+  width: 250px;
+}
+
+.skill h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.project {
+  background-color: white;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Ragam Rakesh</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hi, I'm a passionate web developer with a keen interest in front-end development and design. I love creating websites and applications that are both functional and visually appealing. I’m constantly learning and improving my skills to stay up to date with the latest trends and technologies.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill">
+          <h3>HTML</h3>
+          <p>Experienced in creating semantic and well-structured HTML5 markup.</p>
+        </div>
+        <div class="skill">
+          <h3>CSS</h3>
+          <p>Proficient in CSS3, including Flexbox, Grid, and responsive design techniques.</p>
+        </div>
+        <div class="skill">
+          <h3>JavaScript</h3>
+          <p>Comfortable with vanilla JavaScript, DOM manipulation, and basic algorithms.</p>
+        </div>
+		 <div class="skill">
+          <h3>Java</h3>
+          <p>Comfortable with Programming Java And Core Java With basic algorithms.</p>
+        </div>
+		<div class="skill">
+          <h3>SQL</h3>
+          <p>Comfortable with Handle Queery's And Creation Retriveing And Updation And Delateing Data .</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website to showcase my web development projects and skills.</p>
+      </div>
+      <div class="project">
+        <h3>Building Search Engine By Using Machine Learning Techniques</h3>
+        <p>Designed and implemented a search engine enhancement focused on removing duplicate content
+from search results. Leveraged machine learning techniques to identify and filter out redundant
+information, ensuring users receive unique and relevant content. Developed algorithms to analyse
+webpage similarities, prioritize original sources, and enhance the search experience. This project
+underscores my expertise in machine learning, information retrieval, and web development,
+highlighting my dedication to improving search engine functionality for users.</p>
+      </div>
+      <div class="project">
+        <h3>Restaurant Website</h3>
+        <p>Developed a dynamic and visually appealing website for a restaurant, showcasing its uniqueculinary offerings and inviting ambiance. Integrated user-friendly navigation, interactive menus,
+and online reservation functionalities to enhance customer engagement and streamline dining
+experiences. Implemented responsive design principles to ensure seamless accessibility across
+various devices. This project reflects my proficiency in web development, design aesthetics, and
+user experience optimization, underscoring my ability to create compelling digital platforms for
+businesses.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Feel free to reach out to me for collaboration, projects, or just to say hello!</p>
+      <ul>
+        <li>Email: <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">your.email@example.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/rakesh-ragam-8a9125226?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCIGDL5bOTO67J8Gpj6q4mA%3D%3D">LinkedIn Profile</a></li>
+        <li>GitHub: <a href="https://github.com/ragam1219">GitHub Profile</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
